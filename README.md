@@ -15,15 +15,15 @@ Key Skills Utilized:
 
 ​
 
-SQL Data Querying: Used SQL to select, count, and group data to identify duplicates and inconsistencies.
+- SQL Data Querying: Used SQL to select, count, and group data to identify duplicates and inconsistencies.
 
-Removing Duplicates: Assigned row numbers to duplicates using ROW_NUMBER() OVER(PARTITION BY ...) for easy identification and deletion.
+- Removing Duplicates: Assigned row numbers to duplicates using ROW_NUMBER() OVER(PARTITION BY ...) for easy identification and deletion.
 
-Data Standardization: Ensured all countries had a status of either 'Developing' or 'Developed'.
+- Data Standardization: Ensured all countries had a status of either 'Developing' or 'Developed'.
 
-Data Imputation: Filled missing values based on logical predictions from existing data.
+- Data Imputation: Filled missing values based on logical predictions from existing data.
 
-Data Validation: Checked for and corrected any remaining erroneous entries in the dataset.
+- Data Validation: Checked for and corrected any remaining erroneous entries in the dataset.
 
  
 
