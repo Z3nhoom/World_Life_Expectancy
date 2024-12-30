@@ -194,7 +194,7 @@ Higher BMI is often associated with higher life expectancy in this dataset, cont
 
 - Adult Mortality Analysis:
 
-Used a rolling total to analyze adult mortality per country over the last 16 years, providing insights into the total number of adult deaths in each country.
+Used a rolling total to analyze adult mortality per country over the last 16 years, providing insights into the total number of adult deaths in each country. The mortality number for some countries were zero suggesting inaccurate data sets however, the below insights are depicted off non-zero values. 
 
 ​
 
@@ -202,6 +202,7 @@ Insight:
 
 The rolling total of adult mortality provides an understanding of mortality trends and the cumulative impact of mortality over the years in each country.
 
+The countries with the highest mortality over the last 16 years were Lesotho, Zimbabwe, and Botswana and on the other hand, the lowest were Tunisia, Albania, and Iceland. 
 ​
 
 ​
