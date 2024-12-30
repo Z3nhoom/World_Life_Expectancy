@@ -85,8 +85,18 @@ Year,
 `Adult Mortality`,
 SUM(`Adult Mortality`)OVER(PARTITION BY Country ORDER BY Year) AS Rolling_Total
 FROM world_life_expectancy
-WHERE country LIKE '%United%'
 ;
+
+#Here we can identify the countries with the highest and lowest mortality over the last 16 years. 
+SELECT Country, MAX(Rolling_total) 
+FROM ( SELECT Country,
+Year,
+`Life expectancy`,
+`Adult Mortality`,
+SUM(`Adult Mortality`)OVER(PARTITION BY Country ORDER BY Year) AS Rolling_Total
+FROM world_life_expectancy) rollingT
+group by Country; 
+
 
 # An interesting insight would be to get the population for each country from another source and see the percentage of adults are dieing each year.
 
